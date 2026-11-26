@@ -39,6 +39,7 @@ The full robustness chart, market by market, is [Figure 15](results/figures/fig1
 | [`results/`](results) | Each test's output (`.json`, `.csv`, `.log`) and the figures |
 | [DATA.md](DATA.md) | Where every dataset comes from and why most of it isn't in the repo |
 | [`reproduce.sh`](reproduce.sh) | Download the data, rerun every test, redraw every figure |
+| [`docs/`](docs) | Reference: the [code map](docs/CODEMAP.md) (every script's inputs, outputs and dependencies) and the [methods](docs/METHODS.md) (models, statistics, conventions) |
 
 ### Tests and scripts
 

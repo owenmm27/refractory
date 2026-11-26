@@ -19,3 +19,7 @@ data/macro/raw/
 
 # Intermediate fits and arrays; rebuilt by the test scripts
 results/cache/
+
+# Private working notes for whoever is working on the project (and their AI assistant)
+CLAUDE.md
+docs/STATUS.md
