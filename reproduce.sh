@@ -79,7 +79,7 @@ figures() {
   # figures.py draws Figs 1-4 and the shared style; the later scripts import it, so they redraw 1-4 too.
   for f in figures.py figures_timescales.py figures_contagion.py figures_earnings.py figures_refractory.py \
            figures_where.py figures_gamma.py figures_brain_model.py figures_bursts.py figures_intl.py \
-           figures_hardening.py; do
+           figures_hardening.py figures_hero.py; do
     run "$f"
   done
 }

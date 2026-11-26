@@ -4,7 +4,7 @@ Fifteen tests of brain-like dynamics on a century of daily market data: memory, 
 
 **Read this first:** [WRITEUP.md](WRITEUP.md), the 10-minute write-up. The full lab notebook, with every number and dead end, is [FINDINGS.md](FINDINGS.md).
 
-![The refractory period survives a robust volatility model and a model-free test](results/figures/fig15_hardening.png)
+![In 2000–2012, the day after a big shock was calmer than the day after that 55.9% of the time for stock indices, against about 50% before 2000, after 2012, for single stocks, and with no refractory effect](results/figures/hero_refractory.png)
 
 ## The short answer
 
@@ -27,6 +27,8 @@ The refractory period is the strongest candidate for something new: a literature
 
 Test 15 went after the obvious objection: volatility models fed by squared returns overreact to big days, which alone makes the next day look quiet. The effect survives a model built not to overreact, and a test that uses no model, but at a smaller size than first estimated. The refractory day isn't silent. The index still swings intraday (range 86% of normal), but its close-to-close move is damped (44%).
 
+The full robustness chart, market by market, is [Figure 15](results/figures/fig15_hardening.png) (explained in finding 5 of the [write-up](WRITEUP.md)).
+
 ## What's here
 
 | Path | What |
@@ -34,7 +36,7 @@ Test 15 went after the obvious objection: volatility models fed by squared retur
 | [WRITEUP.md](WRITEUP.md) | Final write-up: question, method, findings, literature check, limitations |
 | [FINDINGS.md](FINDINGS.md) | Lab notebook: every test in order, with tables, corrections and caveats |
 | [`src/`](src) | One script per test (`testN_*.py`), one per chart (`figures_*.py`), data downloaders, shared helpers (`common.py`) |
-| [`results/`](results) | Each test's output (`.json`, `.csv`, `.log`) and the 15 figures |
+| [`results/`](results) | Each test's output (`.json`, `.csv`, `.log`) and the figures |
 | [DATA.md](DATA.md) | Where every dataset comes from and why most of it isn't in the repo |
 | [`reproduce.sh`](reproduce.sh) | Download the data, rerun every test, redraw every figure |
 
