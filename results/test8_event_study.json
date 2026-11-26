@@ -1,0 +1,62 @@
+{
+  "lag0/same_sector_not_yet": {
+    "big": 1.151,
+    "small": 1.004,
+    "diff_pct": 14.72,
+    "t": 13.0,
+    "n_events": [
+      3782,
+      3737
+    ]
+  },
+  "lag0/same_sector_already": {
+    "big": 1.031,
+    "small": 0.934,
+    "diff_pct": 9.67,
+    "t": 9.4,
+    "n_events": [
+      3677,
+      3455
+    ]
+  },
+  "lag0/other_sector": {
+    "big": 1.032,
+    "small": 1.004,
+    "diff_pct": 2.78,
+    "t": 5.4,
+    "n_events": [
+      4143,
+      4143
+    ]
+  },
+  "lag1/same_sector_not_yet": {
+    "big": 1.051,
+    "small": 1.032,
+    "diff_pct": 1.93,
+    "t": 1.8,
+    "n_events": [
+      3758,
+      3661
+    ]
+  },
+  "lag1/same_sector_already": {
+    "big": 0.969,
+    "small": 0.978,
+    "diff_pct": -0.85,
+    "t": -0.8,
+    "n_events": [
+      3663,
+      3438
+    ]
+  },
+  "lag1/other_sector": {
+    "big": 1.01,
+    "small": 1.0,
+    "diff_pct": 1.0,
+    "t": 1.9,
+    "n_events": [
+      4143,
+      4143
+    ]
+  }
+}

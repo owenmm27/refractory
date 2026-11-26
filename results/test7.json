@@ -1,0 +1,406 @@
+{
+  "real": {
+    "magnitude": {
+      "mean_cross_link": 0.021191804414136508,
+      "rms_symmetric": 0.023177799781284165,
+      "rms_antisymmetric": 0.008456169937542217,
+      "noise_rms_one_link": 0.010375096456423242,
+      "stability": {
+        "pairs_corr": 0.017174192123931738,
+        "pairs_null_sd": 0.007946165884930108,
+        "pairs_p": 0.02197802197802198,
+        "leadership_corr": 0.12156997793324835,
+        "leadership_null_sd": 0.06442129803411148,
+        "leadership_p": 0.03796203796203796
+      },
+      "flow_big_to_small": -0.001219811496439089,
+      "flow_big_to_small_ci95": [
+        -0.0024543648108327695,
+        -0.00011916105656216182
+      ],
+      "flow_big_to_small_halves": [
+        -0.0012280753413264171,
+        -0.0012058235560385155
+      ],
+      "pairs_corr_same_sector": 0.01449647124792164,
+      "pairs_corr_cross_sector": 0.017490921594174,
+      "n_same_sector_pairs": 3219
+    },
+    "direction": {
+      "mean_cross_link": 0.0002611502649775608,
+      "rms_symmetric": 0.009861561697645554,
+      "rms_antisymmetric": 0.00854019010517951,
+      "noise_rms_one_link": 0.010375096456423242,
+      "stability": {
+        "pairs_corr": 0.023808538681922484,
+        "pairs_null_sd": 0.005968383218701859,
+        "pairs_p": 0.000999000999000999,
+        "leadership_corr": 0.294367464529581,
+        "leadership_null_sd": 0.06483729492740005,
+        "leadership_p": 0.000999000999000999
+      },
+      "flow_big_to_small": -0.0007427902674567565,
+      "flow_big_to_small_ci95": [
+        -0.001476759431717764,
+        -0.00012646848524969922
+      ],
+      "flow_big_to_small_halves": [
+        -0.0017886144452364996,
+        0.0003089293363557049
+      ],
+      "pairs_corr_same_sector": 0.012547419385392156,
+      "pairs_corr_cross_sector": 0.025758615984904223,
+      "n_same_sector_pairs": 3219
+    }
+  },
+  "real_sectors": {
+    "magnitude": {
+      "by_sector_[half1,half2,full]": {
+        "Communication Services": [
+          0.0026965808794075508,
+          0.001847949018627025,
+          0.002257310494933943
+        ],
+        "Consumer Discretionary": [
+          -0.0022049580844311027,
+          -0.0029972194962513306,
+          -0.002583497667693689
+        ],
+        "Consumer Staples": [
+          -0.0006908264095211065,
+          -0.00042741163257752415,
+          -0.0004762786011890119
+        ],
+        "Energy": [
+          0.0006355544863396092,
+          0.0020341224040501295,
+          0.0013373852952871558
+        ],
+        "Financials": [
+          0.0010838221344831,
+          0.000623069024027912,
+          0.0008434024135085365
+        ],
+        "Health Care": [
+          -0.0005075842419971222,
+          0.0012662355904902792,
+          0.0004027459169312214
+        ],
+        "Industrials": [
+          0.00019364701338581494,
+          0.0014407829470701253,
+          0.0007662959513042231
+        ],
+        "Information Technology": [
+          -0.0021850404917709374,
+          -0.005088636077872782,
+          -0.003692839592993994
+        ],
+        "Materials": [
+          0.001008771374118176,
+          0.001793595782880953,
+          0.001491982427208851
+        ],
+        "Real Estate": [
+          0.00274946474375512,
+          0.000611986310452662,
+          0.001619740430338256
+        ],
+        "Utilities": [
+          0.000916983992132931,
+          0.0006270005316089886,
+          0.0007974175971171629
+        ]
+      },
+      "halves_corr": 0.7556215800999982
+    },
+    "direction": {
+      "by_sector_[half1,half2,full]": {
+        "Communication Services": [
+          0.0008537074235053725,
+          0.0002841730146047206,
+          0.0005955109777599453
+        ],
+        "Consumer Discretionary": [
+          0.0006731448574250566,
+          -2.0438836616190208e-05,
+          0.0003302212785765567
+        ],
+        "Consumer Staples": [
+          -0.001808678464883359,
+          -0.0006813351443810193,
+          -0.0012508816416971253
+        ],
+        "Energy": [
+          0.0021521263801574384,
+          0.0006273578993556382,
+          0.0013654245068721034
+        ],
+        "Financials": [
+          0.0006578928177001034,
+          0.00039630275423903393,
+          0.0005196408157464646
+        ],
+        "Health Care": [
+          0.0013311376377982585,
+          -0.0004950853038065049,
+          0.00039467840706430764
+        ],
+        "Industrials": [
+          0.0013215868319776131,
+          0.001477201808832821,
+          0.0013976165648260865
+        ],
+        "Information Technology": [
+          -0.0025661182528110946,
+          -0.0003111066843854381,
+          -0.001391468065314511
+        ],
+        "Materials": [
+          0.0010053079540858505,
+          0.0005316093915008841,
+          0.0007543341185184869
+        ],
+        "Real Estate": [
+          0.0007320444531026285,
+          -0.0021514880419255134,
+          -0.0007168392376338613
+        ],
+        "Utilities": [
+          -0.0030001959146000244,
+          -0.0018216971146185366,
+          -0.0024041285820988077
+        ]
+      },
+      "halves_corr": 0.5322818532943016
+    }
+  },
+  "real_top_leaders_magnitude": [
+    [
+      "STT",
+      "Financials",
+      0.561,
+      1.51
+    ],
+    [
+      "ETN",
+      "Industrials",
+      0.897,
+      1.213
+    ],
+    [
+      "JNJ",
+      "Health Care",
+      1.071,
+      1.007
+    ],
+    [
+      "ECL",
+      "Materials",
+      0.812,
+      1.186
+    ],
+    [
+      "PNR",
+      "Industrials",
+      0.741,
+      1.227
+    ],
+    [
+      "GLW",
+      "Information Technology",
+      0.018,
+      1.782
+    ],
+    [
+      "FRT",
+      "Real Estate",
+      0.466,
+      1.392
+    ],
+    [
+      "BAC",
+      "Financials",
+      0.801,
+      0.984
+    ],
+    [
+      "MO",
+      "Consumer Staples",
+      0.957,
+      0.73
+    ],
+    [
+      "AOS",
+      "Industrials",
+      0.256,
+      1.332
+    ]
+  ],
+  "real_top_followers_magnitude": [
+    [
+      "MSI",
+      "Information Technology",
+      0.076,
+      -1.665
+    ],
+    [
+      "MSFT",
+      "Information Technology",
+      -0.384,
+      -1.285
+    ],
+    [
+      "RVTY",
+      "Health Care",
+      -1.234,
+      -0.575
+    ],
+    [
+      "CSCO",
+      "Information Technology",
+      0.042,
+      -1.64
+    ],
+    [
+      "BALL",
+      "Materials",
+      -0.784,
+      -1.045
+    ],
+    [
+      "CAH",
+      "Health Care",
+      -0.649,
+      -1.357
+    ],
+    [
+      "F",
+      "Consumer Discretionary",
+      -0.198,
+      -1.847
+    ],
+    [
+      "AON",
+      "Financials",
+      -0.669,
+      -1.685
+    ],
+    [
+      "COST",
+      "Consumer Staples",
+      -0.96,
+      -1.371
+    ],
+    [
+      "AMAT",
+      "Information Technology",
+      -0.871,
+      -1.615
+    ]
+  ],
+  "corr_leadership_with_size": {
+    "magnitude": -0.1494510022246847,
+    "direction": -0.1405943903673155
+  },
+  "synthetic": {
+    "factor_only": {
+      "magnitude": {
+        "mean_cross_link": 0.026193903185256724,
+        "rms_symmetric": 0.030742416791614463,
+        "rms_antisymmetric": 0.007921808579589936,
+        "noise_rms_one_link": 0.010375096456423242,
+        "stability": {
+          "pairs_corr": 0.006040806727382634,
+          "pairs_null_sd": 0.006063248389252327,
+          "pairs_p": 0.16583416583416583,
+          "leadership_corr": 0.014726336995988996,
+          "leadership_null_sd": 0.0632587154851205,
+          "leadership_p": 0.40559440559440557
+        },
+        "flow_leaders_to_others": 0.00010729469075940884,
+        "flow_leaders_to_others_ci95": [
+          -0.0006208380951425568,
+          0.0007436312815391618
+        ],
+        "flow_leaders_to_others_halves": [
+          -3.653532677425769e-05,
+          0.00024324832563182158
+        ]
+      },
+      "direction": {
+        "mean_cross_link": -9.339809766618944e-06,
+        "rms_symmetric": 0.007758211139326246,
+        "rms_antisymmetric": 0.007822627974998275,
+        "noise_rms_one_link": 0.010375096456423242,
+        "stability": {
+          "pairs_corr": 0.0019570397773773095,
+          "pairs_null_sd": 0.005787120943630708,
+          "pairs_p": 0.34965034965034963,
+          "leadership_corr": 0.022979842052223816,
+          "leadership_null_sd": 0.0634333341553436,
+          "leadership_p": 0.36663336663336665
+        },
+        "flow_leaders_to_others": 1.774497566918987e-05,
+        "flow_leaders_to_others_ci95": [
+          -8.970393710086921e-05,
+          0.00013222506133928887
+        ],
+        "flow_leaders_to_others_halves": [
+          -6.106955582850423e-06,
+          4.905640468922575e-05
+        ]
+      },
+      "leaders_mean_leadership_pctile": 0.5233122362869198
+    },
+    "planted_contagion": {
+      "magnitude": {
+        "mean_cross_link": 0.027177501599502784,
+        "rms_symmetric": 0.03160617348794364,
+        "rms_antisymmetric": 0.008150003502630041,
+        "noise_rms_one_link": 0.010375096456423242,
+        "stability": {
+          "pairs_corr": 0.032246190930046624,
+          "pairs_null_sd": 0.006571667541462613,
+          "pairs_p": 0.000999000999000999,
+          "leadership_corr": 0.454318230940944,
+          "leadership_null_sd": 0.06570991116225845,
+          "leadership_p": 0.000999000999000999
+        },
+        "flow_leaders_to_others": 0.006688628416612434,
+        "flow_leaders_to_others_ci95": [
+          0.005819253460738368,
+          0.007410438092333065
+        ],
+        "flow_leaders_to_others_halves": [
+          0.006535294993979781,
+          0.006842159645481703
+        ]
+      },
+      "direction": {
+        "mean_cross_link": -8.580009242399813e-06,
+        "rms_symmetric": 0.0077814291987085655,
+        "rms_antisymmetric": 0.007841845406923995,
+        "noise_rms_one_link": 0.010375096456423242,
+        "stability": {
+          "pairs_corr": 0.001974609392368618,
+          "pairs_null_sd": 0.00601281381710836,
+          "pairs_p": 0.3916083916083916,
+          "leadership_corr": 0.022380954347740144,
+          "leadership_null_sd": 0.06257064726091965,
+          "leadership_p": 0.3516483516483517
+        },
+        "flow_leaders_to_others": 2.1628419829942356e-05,
+        "flow_leaders_to_others_ci95": [
+          -8.531254506509081e-05,
+          0.00013570753770275094
+        ],
+        "flow_leaders_to_others_halves": [
+          -9.529558183942762e-06,
+          5.957110453295442e-05
+        ]
+      },
+      "leaders_mean_leadership_pctile": 0.9015822784810126
+    }
+  }
+}

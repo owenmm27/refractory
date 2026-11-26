@@ -1,0 +1,165 @@
+41 series
+GSPC                   pre-2000  n=10015  next-day after 3SD: sq 0.98 (LR 0)  egarch 1.08 (LR 2)  betat 1.10 (LR 2)  | base ll betat-sq +63  [6s]
+CRSP market            2000-2026 n= 6726  next-day after 3SD: sq 0.53 (LR 70)  egarch 0.68 (LR 23)  betat 0.69 (LR 22)  | base ll betat-sq +22  [8s]
+GSPC                   2000-2012 n= 3267  next-day after 3SD: sq 0.42 (LR 65)  egarch 0.49 (LR 43)  betat 0.50 (LR 40)  | base ll betat-sq +6  [3s]
+GSPC                   2013-2026 n= 3495  next-day after 3SD: sq 0.65 (LR 15)  egarch 0.94 (LR 0)  betat 0.95 (LR 0)  | base ll betat-sq +16  [2s]
+FTSE                   pre-2000  n= 4030  next-day after 3SD: sq 0.93 (LR 1)  egarch 0.89 (LR 1)  betat 1.02 (LR 0)  | base ll betat-sq -2  [3s]
+FTSE                   2000-2012 n= 3279  next-day after 3SD: sq 0.59 (LR 24)  egarch 0.75 (LR 7)  betat 0.76 (LR 6)  | base ll betat-sq -4  [3s]
+CRSP market            1926-1999 n=19612  next-day after 3SD: sq 0.95 (LR 1)  egarch 1.07 (LR 2)  betat 1.13 (LR 7)  | base ll betat-sq +106  [14s]
+DAX                    pre-2000  n= 3007  next-day after 3SD: sq 0.74 (LR 9)  egarch 0.83 (LR 3)  betat 0.98 (LR 0)  | base ll betat-sq +22  [2s]
+FTSE                   2013-2026 n= 3508  next-day after 3SD: sq 1.03 (LR 0)  egarch 1.25 (LR 4)  betat 1.26 (LR 4)  | base ll betat-sq -7  [3s]
+DAX                    2000-2012 n= 3307  next-day after 3SD: sq 0.42 (LR 54)  egarch 0.58 (LR 24)  betat 0.56 (LR 27)  | base ll betat-sq +4  [2s]
+CAC                    pre-2000  n= 2441  next-day after 3SD: sq 0.82 (LR 2)  egarch 0.96 (LR 0)  betat 0.99 (LR 0)  | base ll betat-sq +7  [2s]
+DAX                    2013-2026 n= 3524  next-day after 3SD: sq 0.83 (LR 2)  egarch 1.03 (LR 0)  betat 1.05 (LR 0)  | base ll betat-sq +22  [3s]
+CAC                    2013-2026 n= 3555  next-day after 3SD: sq 0.86 (LR 2)  egarch 1.03 (LR 0)  betat 1.06 (LR 0)  | base ll betat-sq +29  [2s]
+CAC                    2000-2012 n= 3318  next-day after 3SD: sq 0.51 (LR 41)  egarch 0.63 (LR 18)  betat 0.61 (LR 19)  | base ll betat-sq +1  [3s]
+SMI                    pre-2000  n= 2293  next-day after 3SD: sq 0.68 (LR 8)  egarch 0.83 (LR 1)  betat 0.95 (LR 0)  | base ll betat-sq +18  [2s]
+SMI                    2000-2012 n= 3270  next-day after 3SD: sq 0.67 (LR 14)  egarch 0.83 (LR 3)  betat 0.84 (LR 2)  | base ll betat-sq -3  [3s]
+SMI                    2013-2026 n= 3477  next-day after 3SD: sq 0.78 (LR 4)  egarch 1.20 (LR 3)  betat 1.31 (LR 6)  | base ll betat-sq +10  [3s]
+AEX                    2000-2012 n= 3318  next-day after 3SD: sq 0.53 (LR 38)  egarch 0.64 (LR 18)  betat 0.65 (LR 16)  | base ll betat-sq -9  [3s]
+AEX                    2013-2026 n= 3553  next-day after 3SD: sq 0.89 (LR 1)  egarch 1.13 (LR 1)  betat 1.13 (LR 1)  | base ll betat-sq +3  [3s]
+N225                   2000-2012 n= 3192  next-day after 3SD: sq 0.58 (LR 22)  egarch 0.61 (LR 18)  betat 0.61 (LR 19)  | base ll betat-sq +8  [2s]
+N225                   2013-2026 n= 3392  next-day after 3SD: sq 0.76 (LR 3)  egarch 1.13 (LR 1)  betat 1.16 (LR 1)  | base ll betat-sq +25  [2s]
+HSI                    pre-2000  n= 3206  next-day after 3SD: sq 0.93 (LR 0)  egarch 1.16 (LR 1)  betat 1.23 (LR 3)  | base ll betat-sq +22  [2s]
+N225                   pre-2000  n= 8431  next-day after 3SD: sq 1.03 (LR 0)  egarch 1.09 (LR 1)  betat 1.16 (LR 4)  | base ll betat-sq +39  [5s]
+HSI                    2000-2012 n= 3209  next-day after 3SD: sq 0.55 (LR 27)  egarch 0.63 (LR 12)  betat 0.59 (LR 13)  | base ll betat-sq +16  [3s]
+HSI                    2013-2026 n= 3418  next-day after 3SD: sq 0.56 (LR 25)  egarch 0.60 (LR 19)  betat 0.60 (LR 20)  | base ll betat-sq +4  [3s]
+ASX200                 2000-2012 n= 3274  next-day after 3SD: sq 0.70 (LR 11)  egarch 0.82 (LR 4)  betat 0.81 (LR 4)  | base ll betat-sq +7  [3s]
+ASX200                 2013-2026 n= 3513  next-day after 3SD: sq 1.14 (LR 2)  egarch 1.33 (LR 7)  betat 1.31 (LR 6)  | base ll betat-sq +1  [3s]
+TSX                    2000-2012 n= 3263  next-day after 3SD: sq 0.64 (LR 16)  egarch 0.72 (LR 8)  betat 0.68 (LR 10)  | base ll betat-sq +2  [3s]
+TSX                    pre-2000  n= 5136  next-day after 3SD: sq 1.31 (LR 6)  egarch 1.47 (LR 13)  betat 1.59 (LR 23)  | base ll betat-sq -8  [4s]
+TSX                    2013-2026 n= 3486  next-day after 3SD: sq 1.07 (LR 0)  egarch 1.23 (LR 3)  betat 1.22 (LR 3)  | base ll betat-sq +17  [3s]
+KOSPI                  2000-2012 n= 3212  next-day after 3SD: sq 0.53 (LR 31)  egarch 0.58 (LR 19)  betat 0.60 (LR 18)  | base ll betat-sq +27  [3s]
+KOSPI                  2013-2026 n= 3406  next-day after 3SD: sq 0.82 (LR 2)  egarch 0.94 (LR 0)  betat 0.92 (LR 0)  | base ll betat-sq +22  [3s]
+TAIEX                  2000-2012 n= 3212  next-day after 3SD: sq 0.49 (LR 38)  egarch 0.56 (LR 24)  betat 0.56 (LR 23)  | base ll betat-sq +19  [2s]
+TAIEX                  2013-2026 n= 3378  next-day after 3SD: sq 0.54 (LR 30)  egarch 0.63 (LR 14)  betat 0.64 (LR 13)  | base ll betat-sq +30  [3s]
+SENSEX                 2000-2012 n= 3215  next-day after 3SD: sq 0.63 (LR 12)  egarch 0.74 (LR 5)  betat 0.75 (LR 4)  | base ll betat-sq +14  [3s]
+BOVESPA                2000-2012 n= 3213  next-day after 3SD: sq 0.48 (LR 42)  egarch 0.59 (LR 19)  betat 0.58 (LR 20)  | base ll betat-sq +5  [2s]
+BOVESPA                2013-2026 n= 3447  next-day after 3SD: sq 0.74 (LR 7)  egarch 0.85 (LR 2)  betat 0.85 (LR 2)  | base ll betat-sq +15  [2s]
+SENSEX                 2013-2026 n= 3413  next-day after 3SD: sq 0.92 (LR 1)  egarch 1.03 (LR 0)  betat 1.10 (LR 1)  | base ll betat-sq +5  [4s]
+IPC                    pre-2000  n= 2020  next-day after 3SD: sq 1.16 (LR 1)  egarch 1.37 (LR 4)  betat 1.33 (LR 3)  | base ll betat-sq -4  [2s]
+IPC                    2000-2012 n= 3259  next-day after 3SD: sq 0.80 (LR 4)  egarch 0.85 (LR 2)  betat 0.85 (LR 2)  | base ll betat-sq +2  [3s]
+IPC                    2013-2026 n= 3490  next-day after 3SD: sq 1.18 (LR 2)  egarch 1.21 (LR 4)  betat 1.22 (LR 4)  | base ll betat-sq +1  [3s]
+fits done in 47s
+  sim 10/40
+  sim 20/40
+  sim 30/40
+  sim 40/40
+           name        era      n  sq_base_ll  sq_base_absz_lag1   sq_LR  sq_next_day  sq_refr_absz_lag1  egarch_base_ll  egarch_base_absz_lag1  egarch_LR  egarch_next_day  egarch_refr_absz_lag1  betat_base_ll  betat_base_absz_lag1  betat_LR  betat_next_day  betat_refr_absz_lag1
+0   CRSP market  2000-2026   6726   -9147.688             -0.090  70.103        0.525             -0.003       -9107.097                 -0.049     23.422            0.678                  0.002      -9125.449                -0.047    22.044           0.685                 0.004
+1   CRSP market  1926-1999  19612  -22125.212             -0.005   1.070        0.949              0.001      -21983.841                  0.010      1.939            1.068                  0.002     -22019.588                 0.020     7.161           1.127                 0.002
+2          GSPC   pre-2000  10015  -11216.043              0.000   0.129        0.978              0.004      -11148.115                  0.018      1.745            1.083                  0.006     -11153.535                 0.020     2.496           1.099                 0.005
+3          GSPC  2000-2012   3267   -4767.544             -0.127  65.105        0.421             -0.010       -4759.382                 -0.104     42.993            0.490                 -0.007      -4761.862                -0.104    40.327           0.502                -0.007
+4          GSPC  2013-2026   3495   -4206.711             -0.056  15.234        0.646              0.000       -4179.264                  0.001      0.293            0.939                  0.008      -4190.482                 0.003     0.186           0.952                 0.009
+5          FTSE   pre-2000   4030   -5116.934             -0.014   0.673        0.925             -0.000       -5113.457                 -0.015      1.073            0.888                  0.001      -5118.441                 0.006     0.054           1.024                 0.002
+6          FTSE  2000-2012   3279   -4729.945             -0.077  24.290        0.590             -0.006       -4725.132                 -0.047      7.109            0.746                 -0.007      -4733.549                -0.040     5.700           0.762                -0.003
+7          FTSE  2013-2026   3508   -4031.499              0.004   0.079        1.032              0.000       -4033.000                  0.029      3.785            1.253                  0.001      -4038.482                 0.028     3.923           1.261                 0.000
+8           DAX   pre-2000   3007   -4509.154             -0.047   8.665        0.737             -0.005       -4492.082                 -0.026      2.516            0.833                 -0.004      -4486.665                -0.007     0.028           0.984                -0.003
+9           DAX  2000-2012   3307   -5584.576             -0.119  53.588        0.422             -0.017       -5565.208                 -0.086     24.005            0.583                 -0.015      -5580.720                -0.089    27.463           0.557                -0.010
+10          DAX  2013-2026   3524   -4954.355             -0.019   2.456        0.834              0.005       -4928.967                  0.010      0.085            1.033                  0.005      -4932.404                 0.010     0.196           1.051                 0.004
+11          CAC   pre-2000   2441   -3797.542             -0.039   2.397        0.822             -0.012       -3793.435                 -0.017      0.121            0.957                 -0.011      -3790.667                -0.016     0.013           0.987                -0.014
+12          CAC  2000-2012   3318   -5524.526             -0.110  40.742        0.509             -0.015       -5505.356                 -0.079     18.130            0.632                 -0.014      -5523.700                -0.079    19.422           0.609                -0.007
+13          CAC  2013-2026   3555   -4830.469             -0.019   1.917        0.864              0.000       -4798.098                  0.006      0.069            1.029                  0.002      -4801.214                 0.010     0.280           1.060                 0.002
+14          SMI   pre-2000   2293   -3089.193             -0.037   7.677        0.678              0.005       -3071.153                 -0.010      1.497            0.828                  0.008      -3071.411                -0.002     0.135           0.953                 0.005
+15          SMI  2000-2012   3270   -4578.387             -0.061  13.553        0.674             -0.009       -4569.546                 -0.033      2.958            0.828                 -0.007      -4580.979                -0.029     2.373           0.837                -0.005
+16          SMI  2013-2026   3477   -4107.441             -0.025   4.440        0.779              0.000       -4093.373                  0.025      2.538            1.197                  0.003      -4097.338                 0.040     6.105           1.305                 0.002
+17          AEX  2000-2012   3318   -5268.086             -0.101  37.805        0.534             -0.012       -5264.066                 -0.071     18.121            0.637                 -0.009      -5276.946                -0.068    16.247           0.647                -0.005
+18          AEX  2013-2026   3553   -4513.837             -0.015   1.076        0.895              0.000       -4509.298                  0.016      1.148            1.128                  0.001      -4510.513                 0.016     1.156           1.130                 0.001
+19         N225   pre-2000   8431  -11017.067              0.011   0.090        1.026              0.009      -10978.884                  0.018      1.102            1.089                  0.010     -10978.423                 0.025     3.801           1.163                 0.007
+20         N225  2000-2012   3192   -5483.418             -0.088  22.496        0.580             -0.015       -5472.592                 -0.081     18.486            0.606                 -0.015      -5475.229                -0.081    18.800           0.609                -0.012
+21         N225  2013-2026   3392   -5457.730             -0.022   3.189        0.763              0.000       -5428.873                  0.015      1.008            1.135                 -0.000      -5432.339                 0.018     1.393           1.163                 0.000
+22          HSI   pre-2000   3206   -5551.045             -0.007   0.273        0.931             -0.001       -5530.155                  0.014      1.259            1.161                 -0.001      -5529.050                 0.019     3.007           1.230                -0.005
+23          HSI  2000-2012   3209   -5447.961             -0.086  27.296        0.551             -0.010       -5427.664                 -0.051     12.210            0.626                 -0.008      -5431.966                -0.051    13.225           0.590                -0.008
+24          HSI  2013-2026   3418   -5451.262             -0.063  24.509        0.556              0.010       -5448.528                 -0.053     19.066            0.601                  0.015      -5447.431                -0.056    19.789           0.604                 0.012
+25       ASX200  2000-2012   3274   -4053.636             -0.058  11.101        0.703             -0.009       -4041.765                 -0.036      3.577            0.816                 -0.007      -4046.739                -0.035     3.696           0.809                -0.006
+26       ASX200  2013-2026   3513   -4078.560              0.019   1.509        1.137              0.000       -4071.959                  0.041      6.991            1.328                  0.001      -4077.559                 0.038     6.008           1.308                 0.001
+27          TSX   pre-2000   5136   -5246.489              0.023   5.665        1.313              0.003       -5243.552                  0.036     13.195            1.467                 -0.000      -5254.010                 0.050    22.828           1.592                -0.006
+28          TSX  2000-2012   3263   -4505.497             -0.061  16.163        0.639             -0.004       -4503.055                 -0.044      7.952            0.723                 -0.003      -4503.863                -0.050    10.460           0.683                -0.003
+29          TSX  2013-2026   3486   -3594.421              0.008   0.357        1.072             -0.001       -3567.721                  0.025      3.230            1.227                 -0.002      -3577.370                 0.025     2.935           1.221                -0.001
+30        KOSPI  2000-2012   3212   -5764.571             -0.089  31.078        0.533             -0.002       -5728.642                 -0.068     19.134            0.580                 -0.005      -5738.015                -0.060    17.786           0.597                -0.001
+31        KOSPI  2013-2026   3406   -4768.414             -0.020   2.187        0.824              0.000       -4748.461                 -0.006      0.222            0.944                  0.001      -4746.076                -0.007     0.420           0.924                 0.002
+32        TAIEX  2000-2012   3212   -5489.542             -0.098  37.994        0.488             -0.010       -5464.348                 -0.080     23.736            0.562                 -0.011      -5470.091                -0.078    22.647           0.561                -0.007
+33        TAIEX  2013-2026   3378   -4518.792             -0.083  29.956        0.538             -0.001       -4484.524                 -0.056     13.984            0.632                 -0.003      -4489.095                -0.056    13.326           0.640                -0.004
+34       SENSEX  2000-2012   3215   -5588.181             -0.049  11.980        0.628             -0.008       -5574.800                 -0.035      4.845            0.743                 -0.007      -5574.146                -0.033     4.446           0.750                -0.007
+35       SENSEX  2013-2026   3413   -4294.111             -0.008   0.751        0.915              0.007       -4288.614                  0.010      0.050            1.025                  0.007      -4288.896                 0.019     0.685           1.097                 0.005
+36      BOVESPA  2000-2012   3213   -6272.568             -0.106  41.718        0.477             -0.014       -6264.720                 -0.074     18.949            0.588                 -0.013      -6267.073                -0.076    19.756           0.582                -0.013
+37      BOVESPA  2013-2026   3447   -5724.472             -0.035   6.898        0.742              0.002       -5712.885                 -0.016      1.894            0.852                  0.004      -5709.707                -0.018     2.159           0.850                 0.003
+38          IPC   pre-2000   2020   -3778.615              0.017   0.869        1.156              0.001       -3785.481                  0.037      4.147            1.366                  0.000      -3782.374                 0.032     3.340           1.328                 0.000
+39          IPC  2000-2012   3259   -5223.809             -0.023   3.817        0.799              0.006       -5219.165                 -0.019      2.201            0.847                  0.004      -5221.563                -0.018     2.041           0.851                 0.005
+40          IPC  2013-2026   3490   -4587.934              0.023   2.441        1.176             -0.000       -4590.019                  0.029      3.768            1.214                 -0.001      -4586.920                 0.029     4.167           1.217                -0.002
+{
+  "by_era": {
+    "pre-2000": {
+      "n_markets": 9,
+      "sq_median_next_day": 0.9310044041065095,
+      "sq_n_LR_gt_3.84": 3,
+      "sq_n_LR_gt_10.8": 0,
+      "sq_median_base_absz_lag1": -0.007216119513984032,
+      "egarch_median_next_day": 1.083174598276375,
+      "egarch_n_LR_gt_3.84": 2,
+      "egarch_n_LR_gt_10.8": 1,
+      "egarch_median_base_absz_lag1": 0.014329545753963686,
+      "betat_median_next_day": 1.0986743215800032,
+      "betat_n_LR_gt_3.84": 1,
+      "betat_n_LR_gt_10.8": 1,
+      "betat_median_base_absz_lag1": 0.019052872652351623,
+      "n_betat_beats_sq": 6,
+      "median_ll_gain_betat_vs_sq": 17.782113309644956
+    },
+    "2000-2012": {
+      "n_markets": 15,
+      "sq_median_next_day": 0.5508591238341838,
+      "sq_n_LR_gt_3.84": 14,
+      "sq_n_LR_gt_10.8": 14,
+      "sq_median_base_absz_lag1": -0.08825446615688234,
+      "egarch_median_next_day": 0.6319825931679652,
+      "egarch_n_LR_gt_3.84": 12,
+      "egarch_n_LR_gt_10.8": 9,
+      "egarch_median_base_absz_lag1": -0.06819491500293272,
+      "betat_median_next_day": 0.6094584545278076,
+      "betat_n_LR_gt_3.84": 12,
+      "betat_n_LR_gt_10.8": 9,
+      "betat_median_base_absz_lag1": -0.06044467856902152,
+      "n_betat_beats_sq": 12,
+      "median_ll_gain_betat_vs_sq": 5.49495745682907
+    },
+    "2013-2026": {
+      "n_markets": 15,
+      "sq_median_next_day": 0.8343824470026663,
+      "sq_n_LR_gt_3.84": 5,
+      "sq_n_LR_gt_10.8": 3,
+      "sq_median_base_absz_lag1": -0.019431878910709726,
+      "egarch_median_next_day": 1.0327043596608967,
+      "egarch_n_LR_gt_3.84": 3,
+      "egarch_n_LR_gt_10.8": 2,
+      "egarch_median_base_absz_lag1": 0.010392618153020857,
+      "betat_median_next_day": 1.0967464586060327,
+      "betat_n_LR_gt_3.84": 6,
+      "betat_n_LR_gt_10.8": 2,
+      "betat_median_base_absz_lag1": 0.015945319039394272,
+      "n_betat_beats_sq": 14,
+      "median_ll_gain_betat_vs_sq": 14.765138604174354
+    }
+  },
+  "sim_null_betat_dgp": {
+    "n": 40,
+    "dgp": "Beta-t-EGARCH fitted to CRSP 2000-2026, no refractory term",
+    "sq_next_day_p05": 0.7431175297428945,
+    "sq_next_day_median": 0.8281768235018206,
+    "sq_next_day_p95": 1.0,
+    "betat_next_day_p05": 0.8858960546651383,
+    "betat_next_day_median": 1.0214076426568275,
+    "betat_next_day_p95": 1.1670164956871003,
+    "sq_LR_p05": 0.06562485734157236,
+    "sq_LR_median": 5.596897881159748,
+    "sq_LR_p95": 15.057204764733607,
+    "betat_LR_p05": 0.035292963434221745,
+    "betat_LR_median": 0.7256131816648121,
+    "betat_LR_p95": 3.8242428430286943,
+    "real_sq_next_day": 0.525379694381385,
+    "real_betat_next_day": 0.6853177316135116,
+    "real_sq_LR": 70.1025017961183,
+    "real_betat_LR": 22.043818760732393
+  },
+  "elapsed_s": 95
+}

@@ -1,0 +1,38 @@
+panel 6763 x 237, 11 sectors; fitting market...
+ market full {'nu': 7.4354, 'rho': 0.2789, 'a1': -0.0384, 'a2': -0.0032, 'll': -8956.9091}
+ market no_refractory {'nu': 6.8125, 'rho': 0.0, 'a1': -0.0407, 'a2': 0.0002, 'll': -8992.8063}
+ market no_reversal {'nu': 7.3644, 'rho': 0.2759, 'a1': 0.0, 'a2': 0.0, 'll': -8963.4647}
+ market one_timescale {'nu': 6.2762, 'rho': 0.2331, 'a1': -0.0373, 'a2': 0.0047, 'll': -8995.1538}
+ sectors done {'lam_med': np.float64(0.03322961516900261), 'kap_med': np.float64(0.04923358466707088)}
+  stock 1/237 2886s
+  stock 21/237 3510s
+  stock 41/237 3556s
+  stock 61/237 3589s
+  stock 81/237 3613s
+  stock 101/237 3655s
+  stock 121/237 3684s
+  stock 141/237 3719s
+  stock 161/237 3753s
+  stock 181/237 3780s
+  stock 201/237 3821s
+  stock 221/237 3856s
+ stocks fitted in 3875s
+real {"index_absacf_lag1": 0.289, "index_absacf_lag5": 0.34, "index_absacf_lag21": 0.207, "index_absacf_lag63": 0.11, "index_absacf_lag126": 0.067, "index_absacf_lag252": 0.015, "index_excess_kurtosis": 10.619, "index_ac1": -0.097, "index_VR5": 0.828, "index_VR21": 0.747, "index_leverage_corr": -0.122, "index_absz_lag1_corr_vs_plain_model": -0.087, "index_dip_after_big_day": 0.813, "idio_dip_after_big_market_day": 1.111, "stock_dip_after_own_big_day": 1.825, "idio_absacf_lag1_mean": 0.242, "idio_absacf_lag21_mean": 0.142, "idio_absacf_lag126_mean": 0.105, "idio_excess_kurtosis_median": 14.404, "sync_mean_pairwise_corr": 0.316, "sync_vs_same_month_vol_corr": 0.653, "sync_after_minus_before_vol": -0.025, "firing_silent_share": 0.354, "firing_fano_factor": 43.537, "firing_lag1_slope": 0.539, "firing_size_p99": 208.32, "firing_dur_p99": 25.86, "firing_tau_size": 1.937}
+  sim 1/120 full 6s
+  sim 11/120 full 13s
+  sim 21/120 no_refractory 21s
+  sim 31/120 no_refractory 30s
+  sim 41/120 no_reversal 39s
+  sim 51/120 no_reversal 48s
+  sim 61/120 one_timescale_market 56s
+  sim 71/120 one_timescale_market 63s
+  sim 81/120 no_spillover 72s
+  sim 91/120 no_spillover 82s
+  sim 101/120 no_sector_layer 89s
+  sim 111/120 no_sector_layer 98s
+full share of patterns inside the model's 5-95% range: 0.5
+no_refractory share of patterns inside the model's 5-95% range: 0.64
+no_reversal share of patterns inside the model's 5-95% range: 0.54
+one_timescale_market share of patterns inside the model's 5-95% range: 0.68
+no_spillover share of patterns inside the model's 5-95% range: 0.5
+no_sector_layer share of patterns inside the model's 5-95% range: 0.36

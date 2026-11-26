@@ -1,0 +1,77 @@
+{
+  "train": [
+    "2000-01-03",
+    "2012-12-31"
+  ],
+  "test": [
+    "2013-01-02",
+    "2026-11-20"
+  ],
+  "market": {
+    "loglik_test": {
+      "gjr_garch": -4277.657300635567,
+      "two_unit": -4258.475817037592,
+      "two_unit_refractory": -4273.241371412751,
+      "full_market_unit": -4282.983273373275,
+      "full_market_unit_v2": -4274.598629345677
+    },
+    "step_gain": {
+      "gjr_garch -> two_unit": {
+        "loglik_gain": 19.181483597974527,
+        "hac_t": 2.661743819311948
+      },
+      "two_unit -> two_unit_refractory": {
+        "loglik_gain": -14.76555437515875,
+        "hac_t": -1.3038541632507479
+      },
+      "two_unit_refractory -> full_market_unit": {
+        "loglik_gain": -9.741901960524215,
+        "hac_t": -1.804711658519904
+      },
+      "full_market_unit -> full_market_unit_v2": {
+        "loglik_gain": 8.38464402759694,
+        "hac_t": 1.8814695883575443
+      }
+    }
+  },
+  "sectors": {
+    "base -> earnings": {
+      "loglik_gain_total": 0.0,
+      "hac_t_daily_sum": NaN,
+      "share_units_improved": 0.0,
+      "n_units": 11
+    },
+    "earnings -> full": {
+      "loglik_gain_total": 17.744252293591227,
+      "hac_t_daily_sum": 0.5337527723186952,
+      "share_units_improved": 0.6363636363636364,
+      "n_units": 11
+    },
+    "base -> full": {
+      "loglik_gain_total": 17.744252293591227,
+      "hac_t_daily_sum": 0.5337527723186952,
+      "share_units_improved": 0.6363636363636364,
+      "n_units": 11
+    }
+  },
+  "stocks": {
+    "base -> earnings": {
+      "loglik_gain_total": 20185.35101031218,
+      "hac_t_daily_sum": 20.54450495893576,
+      "share_units_improved": 0.9367088607594937,
+      "n_units": 237
+    },
+    "earnings -> full": {
+      "loglik_gain_total": 885.3617111566023,
+      "hac_t_daily_sum": 1.0888017241450871,
+      "share_units_improved": 0.8016877637130801,
+      "n_units": 237
+    },
+    "base -> full": {
+      "loglik_gain_total": 21070.712721468783,
+      "hac_t_daily_sum": 17.900607861569707,
+      "share_units_improved": 0.9662447257383966,
+      "n_units": 237
+    }
+  }
+}

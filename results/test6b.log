@@ -1,0 +1,35 @@
+panel 9290 x 237; fitting volatility models...
+./src/common.py:181: RuntimeWarning: overflow encountered in exp
+  delta = np.exp(p[1 + K + K])
+./src/common.py:151: RuntimeWarning: invalid value encountered in multiply
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+./src/common.py:151: RuntimeWarning: invalid value encountered in divide
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+threshold 3.0: lag1 real 0.513 | realvol_K1 0.456 [0.449,0.464] | realvol_K2 0.455 [0.444,0.462] | simulated_K2 0.190 [0.109,0.306]
+threshold 4.0: lag1 real 0.533 | realvol_K1 0.443 [0.434,0.455] | realvol_K2 0.445 [0.429,0.463] | simulated_K2 0.165 [0.074,0.281]
+threshold 5.0: lag1 real 0.550 | realvol_K1 0.423 [0.405,0.442] | realvol_K2 0.437 [0.418,0.452] | simulated_K2 0.135 [0.031,0.257]
+K=1 {"joint": {"own_yesterday": {"coef_per_sd": 0.033544816426572234, "t": 42.14055018191893, "pct_of_mean_vol": 4.6530422817446135}, "same_sector_yesterday": {"coef_per_sd": 0.020489978506135376, "t": 15.119552220213299, "pct_of_mean_vol": 2.842189837281772}, "other_sectors_yesterday": {"coef_per_sd": 0.061974287288767686, "t": 14.043294294955059, "pct_of_mean_vol": 8.596528759274856}, "market_factor_yesterday": {"coef_per_sd": -0.0002660762460561241, "t": -0.1375690411438156, "pct_of_mean_vol": -0.03690775967658322}, "r2": 0.014866305173772631}, "firing_lpm": {"base_rate": 0.022407661807622558, "own_yesterday": {"pp_per_sd": 0.33759290882379434, "t": 20.90328545471257}, "same_sector_yesterday": {"pp_per_sd": 0.2926283481145237, "t": 9.302365809057335}, "other_sectors_yesterday": {"pp_per_sd": 0.8330835484151221, "t": 6.677328648549373}, "market_factor_yesterday": {"pp_per_sd": -0.017784224642301047, "t": -0.42798459642828285}}}
+K=2 {"joint": {"own_yesterday": {"coef_per_sd": -0.013080289649085667, "t": -18.035725294037537, "pct_of_mean_vol": -1.8014575482933672}, "same_sector_yesterday": {"coef_per_sd": 0.0202364993264205, "t": 15.717154468448793, "pct_of_mean_vol": 2.78703266063853}, "other_sectors_yesterday": {"coef_per_sd": 0.05882533864030429, "t": 15.446411703219663, "pct_of_mean_vol": 8.101605787597922}, "market_factor_yesterday": {"coef_per_sd": 0.00061603030574241, "t": 0.334802699730308, "pct_of_mean_vol": 0.0848415802730109}, "r2": 0.009221663296135607}, "firing_lpm": {"base_rate": 0.02228273313054002, "own_yesterday": {"pp_per_sd": -0.18619939802472474, "t": -13.07757484025408}, "same_sector_yesterday": {"pp_per_sd": 0.2777701568066315, "t": 11.096721663475881}, "other_sectors_yesterday": {"pp_per_sd": 0.7447707643922431, "t": 8.378134256754244}, "market_factor_yesterday": {"pp_per_sd": -0.010798581572604916, "t": -0.32519038191515964}}}
+{
+ "n_stocks": 237,
+ "n_days": 9290,
+ "sample": [
+  "1990-01-03",
+  "2026-11-20"
+ ],
+ "market_factor_half_lives": {
+  "K=1": [
+   39.960161940885655
+  ],
+  "K=2": [
+   8.948275030990828,
+   118.07572022734875
+  ]
+ },
+ "idio_half_lives_median": {
+  "fast": 1.854568836621337,
+  "slow": 635.1318361924596,
+  "single_unit": 261.830707061424
+ },
+ "idio_fast_loading_share_median": 0.3129600631425375
+}

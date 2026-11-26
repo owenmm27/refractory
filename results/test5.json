@@ -1,0 +1,198 @@
+{
+  "expiry_cycle": {
+    "1926-1972 (no listed options: placebo)": {
+      "ac1_expiry_week": 0.18188892001755827,
+      "ac1_other_weeks": 0.1494813554712251,
+      "difference": 0.03240756454633317,
+      "se_cluster_boot": 0.025024953258255912,
+      "p": 0.18833333333333332,
+      "n_expiry_pairs": 2775,
+      "n_other_pairs": 9949,
+      "abs_ret_ratio_expiry_vs_other": 1.0301579187965266,
+      "abs_ret_ratio_week_after_vs_other": 0.9405835096215603
+    },
+    "1973-1999 (listed options, index options from 1983)": {
+      "ac1_expiry_week": 0.14020583069533918,
+      "ac1_other_weeks": 0.17665107152315299,
+      "difference": -0.03644524082781381,
+      "se_cluster_boot": 0.031022897347193882,
+      "p": 0.24,
+      "n_expiry_pairs": 1620,
+      "n_other_pairs": 5204,
+      "abs_ret_ratio_expiry_vs_other": 0.9394759711579875,
+      "abs_ret_ratio_week_after_vs_other": 0.995783946368943
+    },
+    "2000-2026": {
+      "ac1_expiry_week": -0.028574237264667783,
+      "ac1_other_weeks": -0.02929814320916048,
+      "difference": 0.0007239059444926962,
+      "se_cluster_boot": 0.03221238681723188,
+      "p": 0.985,
+      "n_expiry_pairs": 1605,
+      "n_other_pairs": 5121,
+      "abs_ret_ratio_expiry_vs_other": 0.9728605070545977,
+      "abs_ret_ratio_week_after_vs_other": 0.953596109019067
+    },
+    "2000-2012": {
+      "ac1_expiry_week": 0.0067741790651807705,
+      "ac1_other_weeks": -0.05154575253321813,
+      "difference": 0.0583199315983989,
+      "se_cluster_boot": 0.04190385115915456,
+      "p": 0.17333333333333334,
+      "n_expiry_pairs": 780,
+      "n_other_pairs": 2489,
+      "abs_ret_ratio_expiry_vs_other": 0.995732689050524,
+      "abs_ret_ratio_week_after_vs_other": 0.962491125853559
+    },
+    "2013-2026 (weeklies/0DTE era)": {
+      "ac1_expiry_week": -0.06370806055021384,
+      "ac1_other_weeks": -0.010713477207110442,
+      "difference": -0.052994583343103405,
+      "se_cluster_boot": 0.04804133932025762,
+      "p": 0.295,
+      "n_expiry_pairs": 825,
+      "n_other_pairs": 2632,
+      "abs_ret_ratio_expiry_vs_other": 0.9455439776194318,
+      "abs_ret_ratio_week_after_vs_other": 0.9430664591650072
+    }
+  },
+  "overnight_split": {
+    "sample": [
+      "1993-05-03",
+      "2026-11-20"
+    ],
+    "1993-1999": {
+      "slope_cc_on_prev_cc": -0.016067444609429216,
+      "slope_on_on_prev_cc": 0.00942518359742147,
+      "slope_id_on_prev_cc": -0.02549262820685093,
+      "slope_next_cc_on_prev_id": -0.015265471488347388,
+      "slope_next_cc_on_prev_on": -0.012366056827591721,
+      "share_var_overnight": 0.23979600652185204
+    },
+    "2000-2006": {
+      "slope_cc_on_prev_cc": -0.033481313460323035,
+      "slope_on_on_prev_cc": -0.04236507703214187,
+      "slope_id_on_prev_cc": 0.008883763571820259,
+      "slope_next_cc_on_prev_id": -0.0447969119187845,
+      "slope_next_cc_on_prev_on": 0.018513384772996,
+      "share_var_overnight": 0.23321435411543545
+    },
+    "2007-2026": {
+      "slope_cc_on_prev_cc": -0.038570777549929096,
+      "slope_on_on_prev_cc": -0.022494840933267073,
+      "slope_id_on_prev_cc": -0.016075936616661925,
+      "slope_next_cc_on_prev_id": -0.06454140993091084,
+      "slope_next_cc_on_prev_on": 0.00876026852242215,
+      "share_var_overnight": 0.38186459191276945
+    },
+    "2007-2026_by_vix_regime": {
+      "calm": {
+        "slope_cc_on_prev_cc": -0.056935775927260186,
+        "slope_on_on_prev_cc": -0.02770589258659504,
+        "slope_id_on_prev_cc": -0.029229883340665973,
+        "n": 1606
+      },
+      "normal": {
+        "slope_cc_on_prev_cc": 0.03167929355709525,
+        "slope_on_on_prev_cc": -0.00985414797062014,
+        "slope_id_on_prev_cc": 0.041533441527715625,
+        "n": 1815
+      },
+      "turbulent": {
+        "slope_cc_on_prev_cc": -0.08597816768305239,
+        "slope_on_on_prev_cc": -0.03225642475332285,
+        "slope_id_on_prev_cc": -0.05372174292972928,
+        "n": 1583
+      }
+    },
+    "2007-2026_hac": {
+      "cc": {
+        "coef": -0.03857077754992899,
+        "t": -1.9630269900201367
+      },
+      "on": {
+        "coef": -0.022494840933267025,
+        "t": -1.8458233283601753
+      },
+      "id": {
+        "coef": -0.016075936616661866,
+        "t": -1.0415882765945392
+      }
+    }
+  },
+  "gex": {
+    "sample": [
+      "2011-05-03",
+      "2026-11-20"
+    ],
+    "share_days_negative": 0.08893432149246103,
+    "by_regime": {
+      "negative gamma": {
+        "n": 348,
+        "ac1_z": -0.027302317500581236,
+        "slope_on": -0.05459233485949819,
+        "slope_id": 0.02486482866338246,
+        "mean_abs_ret_bp": 153.19626085862728,
+        "median_vix": 26.490000000000002
+      },
+      "positive gamma": {
+        "n": 3565,
+        "ac1_z": -0.02262659165151149,
+        "slope_on": -0.016421839657586125,
+        "slope_id": -0.008234340426471688,
+        "mean_abs_ret_bp": 63.691184345513,
+        "median_vix": 15.95
+      },
+      "positive gamma, low vs past year": {
+        "n": 1161,
+        "ac1_z": -0.015944944280874705,
+        "mean_abs_ret_bp": 81.58193830703263,
+        "median_vix": 17.899999999999995
+      },
+      "positive gamma, mid vs past year": {
+        "n": 1162,
+        "ac1_z": -0.04954381623851307,
+        "mean_abs_ret_bp": 62.14202859166558,
+        "median_vix": 15.570000000000002
+      },
+      "positive gamma, high vs past year": {
+        "n": 1150,
+        "ac1_z": 0.0006415944987551904,
+        "mean_abs_ret_bp": 43.460139832631526,
+        "median_vix": 13.934999999999999
+      }
+    },
+    "interaction_reg_hac": {
+      "const": {
+        "coef": 0.04347101560129022,
+        "t": 2.2854305346317636
+      },
+      "prev_z": {
+        "coef": -0.018465022248113604,
+        "t": -0.8065653869513295
+      },
+      "prev_z_x_neg_gamma": {
+        "coef": 0.1116269853737374,
+        "t": 1.4429287389212746
+      },
+      "prev_z_x_logVIX": {
+        "coef": -0.22186219875872204,
+        "t": -2.8924622713668238
+      }
+    },
+    "interaction_reg_no_vix_hac": {
+      "const": {
+        "coef": 0.04971105972955346,
+        "t": 2.6853273030919325
+      },
+      "prev_z": {
+        "coef": -0.02454201507552075,
+        "t": -1.0832427804350857
+      },
+      "prev_z_x_neg_gamma": {
+        "coef": -0.002592522771434917,
+        "t": -0.03304319960978618
+      }
+    }
+  }
+}

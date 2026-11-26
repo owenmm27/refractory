@@ -1,0 +1,26 @@
+{
+  "magnitude": {
+    "stable_sd_antisym": 0.0015392304196436108,
+    "stable_sd_symmetric": 0.0036787884459831784,
+    "directed_share_of_stable_lag_structure": 0.1489827571712159,
+    "leadership_share_explained_by_sector": 0.10210879209015766,
+    "within_sector_leadership_halves_corr": 0.0466650780564155,
+    "within_sector_p": 0.24887556221889057,
+    "after_removing_10_factors": {
+      "pairs_corr": 0.004706132607191163,
+      "leadership_corr": -0.024486926189050816
+    }
+  },
+  "direction": {
+    "stable_sd_antisym": 0.001837254509327054,
+    "stable_sd_symmetric": 0.0021150949406868623,
+    "directed_share_of_stable_lag_structure": 0.4300481472134367,
+    "leadership_share_explained_by_sector": 0.2840847861404959,
+    "within_sector_leadership_halves_corr": 0.1609217443817817,
+    "within_sector_p": 0.0079960019990005,
+    "after_removing_10_factors": {
+      "pairs_corr": 0.005878234542372132,
+      "leadership_corr": 0.13328561540935216
+    }
+  }
+}

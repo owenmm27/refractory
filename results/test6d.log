@@ -1,0 +1,4 @@
+sector factor explains median 7.7% of market-residual variance
+threshold 3.0: real 0.513 | market+sector null 0.467 [0.461, 0.472]
+threshold 4.0: real 0.533 | market+sector null 0.474 [0.466, 0.482]
+threshold 5.0: real 0.550 | market+sector null 0.472 [0.457, 0.485]

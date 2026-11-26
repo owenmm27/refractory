@@ -1,0 +1,242 @@
+{
+  "n_events": 20713,
+  "events_per_stock_year_median": 4.067982730571893,
+  "A_abs_surprise_vs_normal_days": {
+    "day-2": 1.048838327697588,
+    "day-1": 1.2316016777571215,
+    "day+0": 3.6222061722538172,
+    "day+1": 1.1597886720036115,
+    "day+2": 0.9600323297646283,
+    "day+3": 0.9511164094533021
+  },
+  "A_share_of_firings_in_earnings_windows": 0.2389007470651014,
+  "B_reporting_order": {
+    "sector_median_lag_days": {
+      "Financials": 21.0,
+      "Communication Services": 24.0,
+      "Industrials": 25.75,
+      "Health Care": 29.0,
+      "Materials": 29.0,
+      "Information Technology": 29.5,
+      "Energy": 30.0,
+      "Utilities": 33.0,
+      "Real Estate": 34.0,
+      "Consumer Staples": 36.0,
+      "Consumer Discretionary": 49.0
+    },
+    "stock_corr_lag_vs_leadership": {
+      "magnitude": -0.05259421065367939,
+      "direction": -0.21051172783247726
+    },
+    "stock_corr_p": {
+      "magnitude": 0.44836821023102275,
+      "direction": 0.002163367971797319
+    },
+    "n_on_cycle_stocks": 210,
+    "sector_spearman_lag_vs_leadership": {
+      "magnitude": -0.3781330994899103,
+      "direction": -0.5603659185211924
+    },
+    "sector_spearman_p": {
+      "magnitude": 0.25153064182159524,
+      "direction": 0.0729685753990673
+    },
+    "sector_flow_magnitude_2005_2026": {
+      "Energy": 0.0023567705611012603,
+      "Materials": 0.0018992425382085565,
+      "Communication Services": 0.0016561761670837415,
+      "Real Estate": 0.0014473768970292324,
+      "Health Care": 0.0010825587679809921,
+      "Financials": 0.0010221722974652105,
+      "Industrials": 0.0009528788155094663,
+      "Utilities": 0.00011067333865561607,
+      "Consumer Staples": -0.00032168345181636526,
+      "Consumer Discretionary": -0.003034396714713103,
+      "Information Technology": -0.004704795332876099
+    }
+  },
+  "C_share_of_days_in_season": 0.39949155620119847,
+  "C_directed_structure": {
+    "magnitude/all_days": {
+      "sector_flow_halves_corr": 0.4351085630118786,
+      "sector_flow_spread_sd_x1000": 2.089566703185596,
+      "stock_leadership_halves_corr": 0.18190216632926876,
+      "pairs_halves_corr": 0.05573448272384702,
+      "mean_cross_link": 0.023740642420648276,
+      "sector_flows_full": {
+        "Communication Services": 0.0016561761670837415,
+        "Consumer Discretionary": -0.003034396714713103,
+        "Consumer Staples": -0.00032168345181636526,
+        "Energy": 0.0023567705611012603,
+        "Financials": 0.0010221722974652105,
+        "Health Care": 0.0010825587679809921,
+        "Industrials": 0.0009528788155094663,
+        "Information Technology": -0.004704795332876099,
+        "Materials": 0.0018992425382085565,
+        "Real Estate": 0.0014473768970292324,
+        "Utilities": 0.00011067333865561607
+      }
+    },
+    "magnitude/earnings_windows_removed": {
+      "sector_flow_halves_corr": 0.4906647709595543,
+      "sector_flow_spread_sd_x1000": 2.2839469903717027,
+      "stock_leadership_halves_corr": 0.1620523375191984,
+      "pairs_halves_corr": 0.01656997645546079,
+      "mean_cross_link": 0.026225944071069904,
+      "sector_flows_full": {
+        "Communication Services": -0.000650458750579553,
+        "Consumer Discretionary": -0.004303004044125935,
+        "Consumer Staples": 0.0014642425474076619,
+        "Energy": 0.0036743466515921676,
+        "Financials": 0.0008864305806437177,
+        "Health Care": 0.001588529235881781,
+        "Industrials": -0.0010966598245622343,
+        "Information Technology": -0.0032312212742465728,
+        "Materials": 0.0004973739547116315,
+        "Real Estate": 0.0026548201022890475,
+        "Utilities": 0.0010681908169140192
+      }
+    },
+    "magnitude/in_season": {
+      "sector_flow_spread_sd_x1000": 3.3403133155521973,
+      "corr_with_full_sector_flows": 0.5633420247320454,
+      "mean_cross_link": 0.023008938526421743
+    },
+    "magnitude/off_season": {
+      "sector_flow_spread_sd_x1000": 2.8872718330985467,
+      "corr_with_full_sector_flows": 0.7716166913983146,
+      "mean_cross_link": 0.024227559712632053
+    },
+    "direction/all_days": {
+      "sector_flow_halves_corr": 0.3828531668401532,
+      "sector_flow_spread_sd_x1000": 0.9782188763823971,
+      "stock_leadership_halves_corr": 0.17804743094753028,
+      "pairs_halves_corr": 0.021004638993584457,
+      "mean_cross_link": -4.473956532934444e-05,
+      "sector_flows_full": {
+        "Communication Services": 0.0002698802479490563,
+        "Consumer Discretionary": -0.00034347505570101356,
+        "Consumer Staples": -0.0008271253307741272,
+        "Energy": 0.0011078431631844814,
+        "Financials": 0.00030195939431507113,
+        "Health Care": -0.0005100666521011231,
+        "Industrials": 0.001393698714359441,
+        "Information Technology": -0.00043224947679504485,
+        "Materials": 0.000737708108286222,
+        "Real Estate": -0.0017917793515883225,
+        "Utilities": -0.0015612352549599657
+      }
+    },
+    "direction/earnings_windows_removed": {
+      "sector_flow_halves_corr": 0.3606849552471205,
+      "sector_flow_spread_sd_x1000": 0.973033417083734,
+      "stock_leadership_halves_corr": 0.1228805455967337,
+      "pairs_halves_corr": 0.027461563299561276,
+      "mean_cross_link": -0.00011888318438434943,
+      "sector_flows_full": {
+        "Communication Services": 0.00040664586226096697,
+        "Consumer Discretionary": -0.0007367683053470881,
+        "Consumer Staples": -0.0007961130043197369,
+        "Energy": 0.0007289790246006473,
+        "Financials": 0.00044648761873607753,
+        "Health Care": -0.0005738073556136507,
+        "Industrials": 0.0015521321316466247,
+        "Information Technology": -0.0007015336839587022,
+        "Materials": 0.0008102776363282997,
+        "Real Estate": -0.0018064048546406258,
+        "Utilities": -0.001233371563287971
+      }
+    },
+    "direction/in_season": {
+      "sector_flow_spread_sd_x1000": 1.116589488387352,
+      "corr_with_full_sector_flows": 0.8205698898061522,
+      "mean_cross_link": -0.00010604889490433548
+    },
+    "direction/off_season": {
+      "sector_flow_spread_sd_x1000": 1.1043826271590473,
+      "corr_with_full_sector_flows": 0.9231069951277154,
+      "mean_cross_link": -3.940858413137607e-06
+    }
+  },
+  "A_share_of_stock_days_in_earnings_windows": 0.03173942791644543,
+  "D_firing_persistence": {
+    "real_all_days": 0.5381137398858472,
+    "real_earnings_windows_removed": 0.5342483935857674,
+    "nulls": {
+      "shocks_from_all_days": {
+        "lag1_all_days": [
+          0.4426602079068876,
+          0.4313386145061615,
+          0.4528952334672591
+        ],
+        "lag1_earnings_windows_removed": [
+          0.4412931364176222,
+          0.4296270591985949,
+          0.45118503020914497
+        ]
+      },
+      "shocks_from_non_earnings_days": {
+        "lag1_all_days": [
+          0.4361186165559342,
+          0.4240222176453021,
+          0.4463615852916011
+        ],
+        "lag1_earnings_windows_removed": [
+          0.4345878811607454,
+          0.4228006536014075,
+          0.44536102896976276
+        ]
+      }
+    }
+  },
+  "D_firing_rate_season_vs_off": {
+    "in_season": 0.018144655215691897,
+    "off_season": 0.012744230232351978,
+    "in_season_excl_windows": 0.011690571968221906,
+    "off_season_excl_windows": 0.011672012239646617
+  },
+  "E_information_transfer": {
+    "big_surprise": {
+      "same_sector_not_yet_reported": {
+        "next_day_vol_vs_normal": 1.0674147192274648,
+        "n_peer_days": 51151
+      },
+      "same_sector_already_reported": {
+        "next_day_vol_vs_normal": 0.9742984223235144,
+        "n_peer_days": 53633
+      },
+      "other_sector_not_yet_reported": {
+        "next_day_vol_vs_normal": 1.0417783044775242,
+        "n_peer_days": 383361
+      },
+      "other_sector_already_reported": {
+        "next_day_vol_vs_normal": 0.9813670285997786,
+        "n_peer_days": 375697
+      }
+    },
+    "small_surprise": {
+      "same_sector_not_yet_reported": {
+        "next_day_vol_vs_normal": 1.049102287307604,
+        "n_peer_days": 47325
+      },
+      "same_sector_already_reported": {
+        "next_day_vol_vs_normal": 0.9846884949892261,
+        "n_peer_days": 43576
+      },
+      "other_sector_not_yet_reported": {
+        "next_day_vol_vs_normal": 1.0348982824626336,
+        "n_peer_days": 400537
+      },
+      "other_sector_already_reported": {
+        "next_day_vol_vs_normal": 0.968846423512798,
+        "n_peer_days": 370914
+      }
+    },
+    "difference_big_minus_small_pct": {
+      "same_sector_not_yet_reported": 1.8312431919860872,
+      "same_sector_already_reported": -1.039007266571168,
+      "other_sector_not_yet_reported": 0.6880022014890574,
+      "other_sector_already_reported": 1.2520605086980607
+    }
+  }
+}

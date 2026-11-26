@@ -1,0 +1,259 @@
+./src/common.py:181: RuntimeWarning: overflow encountered in exp
+  delta = np.exp(p[1 + K + K])
+./src/common.py:151: RuntimeWarning: invalid value encountered in multiply
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+./src/common.py:151: RuntimeWarning: invalid value encountered in divide
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+./src/common.py:151: RuntimeWarning: overflow encountered in multiply
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+./src/common.py:181: RuntimeWarning: overflow encountered in exp
+  delta = np.exp(p[1 + K + K])
+./src/common.py:151: RuntimeWarning: invalid value encountered in multiply
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+./src/common.py:151: RuntimeWarning: invalid value encountered in divide
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+./src/common.py:151: RuntimeWarning: overflow encountered in multiply
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+./src/common.py:151: RuntimeWarning: overflow encountered in multiply
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+./src/common.py:181: RuntimeWarning: overflow encountered in exp
+  delta = np.exp(p[1 + K + K])
+./src/common.py:151: RuntimeWarning: invalid value encountered in multiply
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+./src/common.py:151: RuntimeWarning: invalid value encountered in divide
+  u[1:] = r[:-1] ** 2 * (1 + delta * (r[:-1] < 0)) / (1 + delta / 2)
+{
+ "sample": [
+  "1926-07-01",
+  "2026-09-30"
+ ],
+ "fits": {
+  "K=1": {
+   "loglik": -31422.046194885894,
+   "n_params": 5,
+   "bic": 62894.98622998314,
+   "half_lives_days": [
+    73.41781018227508
+   ],
+   "loadings_w": [
+    0.91125817167194
+   ],
+   "decay_b": [
+    0.8941118990547228
+   ],
+   "loop_gain_W": 0.91125817167194,
+   "largest_eigenvalue": 0.99060329632393,
+   "asymmetry_delta": 3.4022428920225773,
+   "t_dof": 6.118493684641982
+  },
+  "K=2": {
+   "loglik": -31323.046660412776,
+   "n_params": 7,
+   "bic": 62717.34469712144,
+   "half_lives_days": [
+    10.559939456057993,
+    251.8719228808123
+   ],
+   "loadings_w": [
+    0.6547547246813221,
+    0.2583475814612668
+   ],
+   "decay_b": [
+    0.8340270575379174,
+    0.9878942609035799
+   ],
+   "loop_gain_W": 0.9131023061425889,
+   "largest_eigenvalue": 0.9972518005086769,
+   "asymmetry_delta": 5.738110925315697,
+   "t_dof": 6.4399960116320125
+  },
+  "K=3": {
+   "loglik": -31315.190291980954,
+   "n_params": 9,
+   "bic": 62721.98949634234,
+   "half_lives_days": [
+    8.78985360931347,
+    97.71041547558298,
+    648.6212512040476
+   ],
+   "loadings_w": [
+    0.6176614845620546,
+    0.2410607812390804,
+    0.06242102199523224
+   ],
+   "decay_b": [
+    0.8233689479058007,
+    0.981023906977701,
+    0.9978339551498805
+   ],
+   "loop_gain_W": 0.9211432877963672,
+   "largest_eigenvalue": 0.9989319237593174,
+   "asymmetry_delta": 5.92106875412128,
+   "t_dof": 6.4892432210927895
+  }
+ },
+ "lr_test_K2_vs_K1": {
+  "LR": 197.99906894623564,
+  "df": 2
+ },
+ "lr_test_K3_vs_K2": {
+  "LR": 15.712736863642931,
+  "df": 2
+ },
+ "k2_by_era": {
+  "1926-1969": {
+   "loglik": -13403.629162727015,
+   "n_params": 7,
+   "bic": 26873.024437116812,
+   "half_lives_days": [
+    7.293161613418745,
+    342.82941385515744
+   ],
+   "loadings_w": [
+    0.6179231988930045,
+    0.30501575907328415
+   ],
+   "decay_b": [
+    0.7767855200270589,
+    0.9893540010647834
+   ],
+   "loop_gain_W": 0.9229389579662887,
+   "largest_eigenvalue": 0.9979801997516352,
+   "asymmetry_delta": 4.975566116084071,
+   "t_dof": 5.46889565140704,
+   "LR_vs_K1": 137.05994578829268
+  },
+  "1970-1999": {
+   "loglik": -8679.45772725696,
+   "n_params": 7,
+   "bic": 17421.450180586457,
+   "half_lives_days": [
+    10.335887173672969,
+    119.80985300961976
+   ],
+   "loadings_w": [
+    0.5205452297431344,
+    0.30357363831219886
+   ],
+   "decay_b": [
+    0.8780159826968361,
+    0.9825597873203828
+   ],
+   "loop_gain_W": 0.8241188680553333,
+   "largest_eigenvalue": 0.9942313093655594,
+   "asymmetry_delta": 2.934704551882536,
+   "t_dof": 7.586995201147396,
+   "LR_vs_K1": 21.096357267586427
+  },
+  "2000-2026": {
+   "loglik": -9147.71369685533,
+   "n_params": 7,
+   "bic": 18357.12354495676,
+   "half_lives_days": [
+    13.395877756853467,
+    166.4971299699491
+   ],
+   "loadings_w": [
+    0.7244040269789408,
+    0.17538277756076817
+   ],
+   "decay_b": [
+    0.8413857234543751,
+    0.9868200233142836
+   ],
+   "loop_gain_W": 0.8997868045397089,
+   "largest_eigenvalue": 0.9958455358713529,
+   "asymmetry_delta": 4987.285352996957,
+   "t_dof": 8.608861398510756,
+   "LR_vs_K1": 63.198825595329254
+  }
+ },
+ "residuals": {
+  "K=1": {
+   "ljung_box_abs_z_20": {
+    "Q": 22.180133806308923,
+    "p": 0.3308166508595305
+   },
+   "mean_acf_abs_z_lags_1_20": -0.0010720060587521914,
+   "mean_acf_abs_z_lags_21_250": 0.006620291358265431,
+   "se_of_mean_21_250_approx": 0.0018170198976188222
+  },
+  "K=2": {
+   "ljung_box_abs_z_20": {
+    "Q": 61.80979940603566,
+    "p": 3.7232358526099626e-06
+   },
+   "mean_acf_abs_z_lags_1_20": 0.002993473236892987,
+   "mean_acf_abs_z_lags_21_250": 0.005765544211644453,
+   "se_of_mean_21_250_approx": 0.0018170198976188222
+  },
+  "K=3": {
+   "ljung_box_abs_z_20": {
+    "Q": 67.75649729271177,
+    "p": 4.2150027628547695e-07
+   },
+   "mean_acf_abs_z_lags_1_20": 0.0033902208063152964,
+   "mean_acf_abs_z_lags_21_250": 0.00599173110391147,
+   "se_of_mean_21_250_approx": 0.0018170198976188222
+  }
+ },
+ "oos_2000_2026": {
+  "mean_loglik_per_day": {
+   "K=1": -1.373211213998917,
+   "K=2": -1.368969283583092
+  },
+  "total_loglik_gain_K2": 28.5312239768368,
+  "qlike_1day": {
+   "K=1": 1.4940488790311381,
+   "K=2": 1.4777455091290936
+  },
+  "qlike_21day": {
+   "K=1": 0.31921910326806446,
+   "K=2": 0.32029536989413215
+  },
+  "dm_1day_K1_minus_K2": [
+   0.01630336990204399,
+   2.5334758971228517
+  ],
+  "dm_21day_K1_minus_K2": [
+   -0.0010762666260676454,
+   -0.07842654015624324
+  ],
+  "dm_loglik_K2_minus_K1": [
+   0.004241930415824683,
+   2.7454129844740396
+  ],
+  "in_sample_half_lives_K2": [
+   8.940386076045769,
+   266.850648743779
+  ]
+ },
+ "bds_2000_2026": {
+  "K1_resid_stat_dims_2_3_4": [
+   -5.839532812553572,
+   -4.919553141752456,
+   -3.9907218039704833
+  ],
+  "K2_resid_stat_dims_2_3_4": [
+   -6.576954444749381,
+   -5.740764881252404,
+   -4.8503454698731225
+  ],
+  "K2_bootstrap_null_mean": [
+   -0.09823231416561548,
+   -0.20939148187282489,
+   -0.22935873077845995
+  ],
+  "K2_bootstrap_null_sd": [
+   0.8630331299791492,
+   0.8201965214534682,
+   0.795010292234561
+  ],
+  "K2_bootstrap_p": [
+   0.005,
+   0.005,
+   0.005
+  ],
+  "n_boot": 199
+ }
+}

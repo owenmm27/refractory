@@ -1,0 +1,21 @@
+LR state-dependent reversal 11.55
+market v2 {'rho': 0.2832, 'a1': -0.0253, 'a2': -0.0029, 'c': 0.6293, 'nu': 7.3028, 'll': -8953.5752} v1 ll -8956.91
+gain {'beta_market': 0.4593, 'var_fast': 0.1152, 'phi_fast': 0.8187, 'var_slow': 0.1653, 'phi_slow': 0.9981, 'var_white': 0.0432, 'var_meas_noise': 0.0269, 'var_total_resid': 0.3507, 'half_life_fast_days': 3.4648, 'half_life_slow_days': 358.7932, 'sd_measured_daily': 0.7414}
+  refit 1/237 8s
+  refit 41/237 28s
+  refit 81/237 50s
+  refit 121/237 72s
+  refit 161/237 93s
+  refit 201/237 116s
+  sim 1/80 v1_full 5s
+  sim 11/80 v1_full 14s
+  sim 21/80 v2_reversal_only 22s
+  sim 31/80 v2_reversal_only 33s
+  sim 41/80 v2_gain_only 41s
+  sim 51/80 v2_gain_only 50s
+  sim 61/80 v2_full 60s
+  sim 71/80 v2_full 69s
+v1_full inside 5-95%: 19 of 33
+v2_reversal_only inside 5-95%: 18 of 33
+v2_gain_only inside 5-95%: 20 of 33
+v2_full inside 5-95%: 15 of 33

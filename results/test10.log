@@ -1,0 +1,226 @@
+market surprise inputs...
+299 series (237 stocks); fitting...
+  1/299 INDEX ^GSPC 6.9s elapsed 9s
+  21/299 FF49 Books 23.9s elapsed 169s
+  41/299 FF49 Mines 22.1s elapsed 345s
+  61/299 FF49 Fin 30.5s elapsed 534s
+  81/299 STOCK AMAT 41.6s elapsed 845s
+  101/299 STOCK CDNS 38.5s elapsed 1126s
+  121/299 STOCK COP 41.1s elapsed 2506s
+  141/299 STOCK EMR 45.2s elapsed 2748s
+  161/299 STOCK GD 34.8s elapsed 2993s
+  181/299 STOCK IFF 46.8s elapsed 3271s
+  201/299 STOCK MTB 34.8s elapsed 3531s
+  221/299 STOCK NOC 39.7s elapsed 3835s
+  241/299 STOCK PTC 49.4s elapsed 4107s
+  261/299 STOCK SYK 42.5s elapsed 4393s
+  281/299 STOCK UHS 56.4s elapsed 4673s
+  299/299 STOCK XEL 28.2s elapsed 4918s
+{
+ "index": {
+  "1990-1999": {
+   "raw_own": {
+    "n": 2,
+    "rho_mean": 0.16951152978648126,
+    "rho_se": 0.001095840945590412,
+    "rho_median": 0.16951152978648126,
+    "share_rho_positive": 1.0,
+    "share_LR_gt_3.84": 1.0,
+    "LR_sum": 16.70244890894992,
+    "next_day_after_3sd_median": 0.6837087547973204
+   }
+  },
+  "2000-2012": {
+   "raw_own": {
+    "n": 2,
+    "rho_mean": 0.4087210401939243,
+    "rho_se": 0.0047094343153339935,
+    "rho_median": 0.4087210401939243,
+    "share_rho_positive": 1.0,
+    "share_LR_gt_3.84": 1.0,
+    "LR_sum": 140.3023340809068,
+    "next_day_after_3sd_median": 0.4022317455740134
+   }
+  },
+  "2013-2026": {
+   "raw_own": {
+    "n": 2,
+    "rho_mean": 0.16744943211764102,
+    "rho_se": 0.007875674054829432,
+    "rho_median": 0.16744943211764102,
+    "share_rho_positive": 1.0,
+    "share_LR_gt_3.84": 1.0,
+    "LR_sum": 24.678977377188858,
+    "next_day_after_3sd_median": 0.6869483905381736
+   }
+  },
+  "2000-2026": {
+   "raw_own": {
+    "n": 2,
+    "rho_mean": 0.2889630800349735,
+    "rho_se": 0.0006106501449470446,
+    "rho_median": 0.2889630800349735,
+    "share_rho_positive": 1.0,
+    "share_LR_gt_3.84": 1.0,
+    "LR_sum": 136.38662298089548,
+    "next_day_after_3sd_median": 0.523332047363314
+   }
+  }
+ },
+ "gics_sector": {
+  "1990-1999": {
+   "raw_own": {
+    "n": 11,
+    "rho_mean": -0.06483856757648339,
+    "rho_se": 0.026967649859953022,
+    "rho_median": -0.06834030617482793,
+    "share_rho_positive": 0.2727272727272727,
+    "share_LR_gt_3.84": 0.09090909090909091,
+    "LR_sum": 22.759531657441585,
+    "next_day_after_3sd_median": 1.1662862030410381
+   },
+   "idio_own_given_mkt": {
+    "n": 11,
+    "rho_mean": -0.0377625746705281,
+    "rho_se": 0.04685458811566086,
+    "rho_median": -0.0398283965863182,
+    "share_rho_positive": 0.2727272727272727,
+    "share_LR_gt_3.84": 0.7272727272727273,
+    "LR_sum": 117.75975991651194,
+    "next_day_after_3sd_median": 1.0936704902369752
+   },
+   "idio_mkt": {
+    "n": 11,
+    "rho_mean": -0.11098179221272052,
+    "rho_se": 0.0244142727796772,
+    "rho_median": -0.12965378434982458,
+    "share_rho_positive": 0.18181818181818182,
+    "share_LR_gt_3.84": 0.7272727272727273,
+    "LR_sum": 117.75975991651194
+   }
+  },
+  "2000-2012": {
+   "raw_own": {
+    "n": 11,
+    "rho_mean": 0.14808556054805158,
+    "rho_se": 0.030405892629639622,
+    "rho_median": 0.1703138576550988,
+    "share_rho_positive": 0.9090909090909091,
+    "share_LR_gt_3.84": 0.8181818181818182,
+    "LR_sum": 144.0121712176997,
+    "next_day_after_3sd_median": 0.6830448311120622
+   },
+   "idio_own_given_mkt": {
+    "n": 11,
+    "rho_mean": -0.020354312991443465,
+    "rho_se": 0.022970541328331224,
+    "rho_median": -0.01205865551044472,
+    "share_rho_positive": 0.45454545454545453,
+    "share_LR_gt_3.84": 0.6363636363636364,
+    "LR_sum": 44.15926872242835,
+    "next_day_after_3sd_median": 1.0271610434341318
+   },
+   "idio_mkt": {
+    "n": 11,
+    "rho_mean": -0.06507353024738523,
+    "rho_se": 0.010344146386272634,
+    "rho_median": -0.07972879476073275,
+    "share_rho_positive": 0.09090909090909091,
+    "share_LR_gt_3.84": 0.6363636363636364,
+    "LR_sum": 44.15926872242835
+   }
+  },
+  "2013-2026": {
+   "raw_own": {
+    "n": 11,
+    "rho_mean": 0.02192651133959365,
+    "rho_se": 0.020849603556028364,
+    "rho_median": 0.02640974814296174,
+    "share_rho_positive": 0.5454545454545454,
+    "share_LR_gt_3.84": 0.09090909090909091,
+    "LR_sum": 12.668545341466597,
+    "next_day_after_3sd_median": 0.9427437762732187
+   },
+   "idio_own_given_mkt": {
+    "n": 11,
+    "rho_mean": -0.0361701739490568,
+    "rho_se": 0.017336054010080128,
+    "rho_median": -0.03244793268502167,
+    "share_rho_positive": 0.09090909090909091,
+    "share_LR_gt_3.84": 0.2727272727272727,
+    "LR_sum": 45.07083431620413,
+    "next_day_after_3sd_median": 1.0750756041315264
+   },
+   "idio_mkt": {
+    "n": 11,
+    "rho_mean": -0.053377912101632646,
+    "rho_se": 0.013818387176258938,
+    "rho_median": -0.05380584651208045,
+    "share_rho_positive": 0.18181818181818182,
+    "share_LR_gt_3.84": 0.2727272727272727,
+    "LR_sum": 45.07083431620413
+   }
+  },
+  "2000-2026": {
+   "raw_own": {
+    "n": 11,
+    "rho_mean": 0.08082018158772918,
+    "rho_se": 0.017553902190520405,
+    "rho_median": 0.10078640646774069,
+    "share_rho_positive": 0.9090909090909091,
+    "share_LR_gt_3.84": 0.5454545454545454,
+    "LR_sum": 71.7649231878986,
+    "next_day_after_3sd_median": 0.7983911149864326
+   },
+   "idio_own_given_mkt": {
+    "n": 11,
+    "rho_mean": -0.038125032254919006,
+    "rho_se": 0.01523765241859335,
+    "rho_median": -0.050044007010121454,
+    "share_rho_positive": 0.18181818181818182,
+    "share_LR_gt_3.84": 0.6363636363636364,
+    "LR_sum": 77.12613468222298,
+    "next_day_after_3sd_median": 1.118210101083611
+   },
+   "idio_mkt": {
+    "n": 11,
+    "rho_mean": -0.059404080423583666,
+    "rho_se": 0.008401295484613417,
+    "rho_median": -0.06644838058674905,
+    "share_rho_positive": 0.0,
+    "share_LR_gt_3.84": 0.6363636363636364,
+    "LR_sum": 77.12613468222298
+   }
+  },
+  "2000-2026_extra": {
+   "idio_own_only": {
+    "n": 11,
+    "rho_mean": -0.043002940266388914,
+    "rho_se": 0.01568019315748814,
+    "rho_median": -0.052366417991320746,
+    "share_rho_positive": 0.18181818181818182,
+    "share_LR_gt_3.84": 0.2727272727272727,
+    "LR_sum": 26.71793874868854,
+    "next_day_after_3sd_median": 1.124064597103087
+   },
+   "idio_mkt_only": {
+    "n": 11,
+    "rho_mean": -0.06119091423635112,
+    "rho_se": 0.00869155971033592,
+    "rho_median": -0.07026030725075876,
+    "share_rho_positive": 0.0,
+    "share_LR_gt_3.84": 0.5454545454545454,
+    "LR_sum": 53.53496495620129
+   }
+  }
+ },
+ "ff49_industry": {
+  "1990-1999": {
+   "raw_own": {
+    "n": 49,
+    "rho_mean": -0.015603956724069026,
+    "rho_se": 0.015930335537205697,
+    "rho_median": -0.029194535808507352,
+    "share_rho_positive": 0.42857142857142855,
+    "share_LR_gt_3.84": 0.16326530612244897,
+    "LR_sum": 89.92879155960

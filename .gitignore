@@ -1,0 +1,21 @@
+# Python and numba caches
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Third-party market data: not redistributable, re-downloaded by the scripts (see DATA.md).
+# Only small public-domain or openly licensed files are kept.
+data/*
+!data/earnings/
+!data/meta/
+!data/macro/
+data/macro/raw/
+
+# Intermediate fits and arrays; rebuilt by the test scripts
+results/cache/
